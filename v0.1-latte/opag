@@ -10,7 +10,7 @@ show_logo() {
   base64_logo="X19fX19fX18gICAgICAgICAgICAgICAgICAgICAgX19fX19fX19fXyAgICAgICAgICAgICAgICBfXyAgICAKXF9fX19fICBcIF9fX19fXyAgIF9fX18gICBfX19fXF9fX19fXyAgIFxfX19fXyAgICBfX19fIHwgIHwgX18KIC8gICB8ICAgXFxfX19fIFxfLyBfXyBcIC8gICAgXHwgICAgIF9fXy9cX18gIFwgXy8gX19fXHwgIHwvIC8KLyAgICB8ICAgIFwgIHxfPiA+ICBfX18vfCAgIHwgIFwgICAgfCAgICAgLyBfXyBcXCAgXF9fX3wgICAgPCAKXF9fX19fX18gIC8gICBfXy8gXF9fXyAgPl9fX3wgIC9fX19ffCAgICAoX19fXyAgL1xfX18gID5fX3xfIFwKICAgICAgICBcL3xfX3wgICAgICAgIFwvICAgICBcLyAgICAgICAgICAgICAgIFwvICAgICBcLyAgICAgXC8KCg=="
   echo -e "\n$(echo "$base64_logo" | base64 --decode)\n"
   echo "OpenPack v0.1-latte."
-  echo "Share, change as you wish. Public domain, belongs to all."
+  echo -e "Share, change as you wish. Public domain, belongs to all.\n GitHub: @openpack-repo"
 }
 
 show_help() {
